@@ -1,4 +1,49 @@
+/*
+future conrad - please minify :) 
+*/
+
 body {
     width: 400px;
-    height: 650px;
+    height: 600px;
+    overflow: hidden;
+    background: #021a38;
+    font-size: 16pt;
+    font-family: "Segoe UI";
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-top: 1.5rem;  
+    color: #fff0;
+    background: linear-gradient(270deg, #7303c0, #ec38bc, #fdeff9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+.headerCutout {
+    padding: 0 0.5rem;
+    background: linear-gradient(90deg, #7303c0, #ec38bc, #fdeff9);
+    color: #021a38;
+}
+
+.themeSelectorCont {
+    width: 100%;
+    height: 75%;
+    border-top: 1px solid;
+    border-image: linear-gradient(to left, #fff0, #fff, #fff0) 1 / 2;
+
+    display: grid;
+    gap: 0.25rem;
 }
