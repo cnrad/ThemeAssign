@@ -3,14 +3,23 @@
   "manifest_version": 2,
   "name": "WebAssign Themes",
   "version": "1.0",
+  "icons": {
+    "48": "wathemeicon.png"
+  },
 
-  "description": "Dark theme",
+  "description": "Theming for WebAssign (testing)",
 
   "content_scripts": [
     {
       "matches": ["https://www.webassign.net/*"],
       "js": ["theme.js"]
     }
-  ]
+  ],
+
+  "browser_action": {
+    "default_icon": "wathemeicon.png",
+    "default_title": "Theme Selector",
+    "default_popup": "window.html"
+  }
 
 }
