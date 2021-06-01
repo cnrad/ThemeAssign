@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "WebAssign Themes",
+  "version": "1.0",
+
+  "description": "Dark theme",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.webassign.net/*"],
+      "js": ["theme.js"]
+    }
+  ]
+
+}
