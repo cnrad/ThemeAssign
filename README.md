@@ -1,4 +1,4 @@
-# WebAssign-Themes
+# ThemeAssign
 <!-- markdownlint-disable MD036 -->
 
 📝 _Small side project to make WebAssign actually look decent._
