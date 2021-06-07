@@ -6,7 +6,6 @@
 #61D0FF,
 */
 
-
 document.body.style.background = "#000000";
 document.body.style.color = "#FFF";
 document.body.style.caretColor = "#FFF";

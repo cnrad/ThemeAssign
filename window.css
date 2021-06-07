@@ -2,11 +2,13 @@
 future conrad - please minify :) 
 */
 
+/* remove previous and import stylesheets on select */
+
 body {
     width: 400px;
     height: 600px;
     overflow: hidden;
-    background: #021a38;
+    background: #001530;
     font-size: 16pt;
     font-family: "Segoe UI";
 }
@@ -23,7 +25,7 @@ body {
     width: auto;
     height: auto;
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 1.5rem;  
     color: #fff0;
@@ -39,11 +41,11 @@ body {
 }
 
 .themeSelectorCont {
-    width: 100%;
+    width: 90%;
     height: 75%;
     border-top: 1px solid;
     border-image: linear-gradient(to left, #fff0, #fff, #fff0) 1 / 2;
 
-    display: grid;
-    gap: 0.25rem;
+    display: flex;
+    flex-direction: column;
 }
